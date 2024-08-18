@@ -28,7 +28,7 @@ def create_agent_chain(history):
     return AgentExecutor(agent=agent, tools=tools, memory=memory)
 
 
-st.title("langchai-streamlit-app")
+st.title("HiWi GPT")
 
 history = StreamlitChatMessageHistory()
 
